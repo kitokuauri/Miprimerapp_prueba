@@ -1,0 +1,12 @@
+<p>Aquí iría un nuevo empleado</p>
+<p>Nombre del empleado: {{nombre}}</p>
+<p>Apellido del empleado: {{apellido}}</p>
+<p>Edad del empleado: {{edad<18 ? "Menos de edad": "Mayor de edad"}}</p>
+<p>Empresa del empleado: {{empresa.value}}</p>
+
+<label for="text">Introduce la empresa:</label>
+<input type="text" #empresa (keyup)="0">
+<br>
+<br>
+<!-- <input type="button" value="Pulse aquí" (click)="llamaEmpresa(empresa.value)"> -->
+
